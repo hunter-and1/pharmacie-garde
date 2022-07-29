@@ -1,0 +1,8 @@
+/* Empty. Add your own CSS if you like */
+.wi-all,ion-content{background: #f2f2f2 !important;}
+.wi-card{width: 250px !important;margin-right: auto;margin-left:auto; }
+.bar-balanced{background: url(../img/bg-header.jpg)!important;}
+/*
+background-image: linear-gradient(0deg, #28a54c, #28a54c 50%, transparent 50%);
+*/
+.wi-card img{width: 50px}

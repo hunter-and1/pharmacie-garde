@@ -1,0 +1,39 @@
+<ion-view>
+  <ion-nav-title>
+    <h1 class="title">Pharmacies Agadir</h1>
+  </ion-nav-title>
+    <ion-tabs class="tabs-icon-top">
+
+      <ion-tab title="Home" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline">
+      <ion-content>
+         <div class="padding-vertical padding-horizontal" style="margin-top:43px;">
+          <center style="padding:50px 0px;"><img src="img/paramedics.png"></center>
+          <div class="card wi-card" ng-click="goPharmacies()">
+            <div class="item item-text-wrap text-center">
+            <img src="img/appointment.png" style="float:left" />
+              <p>Pharmacies de garde</p>
+              <b>Autour de moi.</b>
+            </div>
+          </div>
+          
+          <div class="card wi-card">
+            <div class="item item-text-wrap text-center">
+            <img src="img/asklepian.png" style="float:left"/>
+              <p>Toutes</p>
+              <b>Les Pharmacies</b>
+            </div>
+          </div>          
+        </div>
+        </ion-content>
+      </ion-tab>
+
+      <ion-tab title="About" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline">
+
+      </ion-tab>
+
+      <ion-tab title="Settings" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline">
+        <!-- Tab 3 content -->
+      </ion-tab>
+
+    </ion-tabs>    
+</ion-view>
